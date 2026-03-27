@@ -15,7 +15,7 @@ import ast
 # ─────────────────────────────────────────────────────────────────────────────
 # STEP 1: LOADING PRE-CLEANED DATASET
 # ─────────────────────────────────────────────────────────────────────────────
-df = pd.read_csv("Nepali_house_finally_cleaned.csv")
+df = pd.read_csv("ITS68404_0362512_Code/Nepali_house_cleaned.csv")
 
 print(f"Dataset loaded: {df.shape[0]} rows, {df.shape[1]} columns")
 print(f"Districts: {df['Location_district'].value_counts().to_dict()}")
